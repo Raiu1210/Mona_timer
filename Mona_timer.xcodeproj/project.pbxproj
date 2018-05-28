@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		425B954E20BA42A5005013B4 /* mona_timer_finish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 425B954D20BA42A5005013B4 /* mona_timer_finish.mp3 */; };
 		4266BFDC20B63FC100D2B239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4266BFDB20B63FC100D2B239 /* AppDelegate.swift */; };
 		4266BFDE20B63FC100D2B239 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4266BFDD20B63FC100D2B239 /* ViewController.swift */; };
 		4266BFE120B63FC100D2B239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4266BFDF20B63FC100D2B239 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		425B954D20BA42A5005013B4 /* mona_timer_finish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mona_timer_finish.mp3; sourceTree = "<group>"; };
 		4266BFD820B63FC100D2B239 /* Mona_timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mona_timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4266BFDB20B63FC100D2B239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4266BFDD20B63FC100D2B239 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		4266BFDA20B63FC100D2B239 /* Mona_timer */ = {
 			isa = PBXGroup;
 			children = (
+				425B954D20BA42A5005013B4 /* mona_timer_finish.mp3 */,
 				4266BFDB20B63FC100D2B239 /* AppDelegate.swift */,
 				4266BFDD20B63FC100D2B239 /* ViewController.swift */,
 				4266BFDF20B63FC100D2B239 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				4266BFE620B63FCD00D2B239 /* LaunchScreen.storyboard in Resources */,
 				4266BFE320B63FCD00D2B239 /* Assets.xcassets in Resources */,
+				425B954E20BA42A5005013B4 /* mona_timer_finish.mp3 in Resources */,
 				4266BFE120B63FC100D2B239 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47E4SMXRVF;
 				INFOPLIST_FILE = Mona_timer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 47E4SMXRVF;
 				INFOPLIST_FILE = Mona_timer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
