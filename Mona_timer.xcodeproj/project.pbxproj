@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		425B954E20BA42A5005013B4 /* mona_timer_finish.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 425B954D20BA42A5005013B4 /* mona_timer_finish.mp3 */; };
 		4266BFDC20B63FC100D2B239 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4266BFDB20B63FC100D2B239 /* AppDelegate.swift */; };
 		4266BFDE20B63FC100D2B239 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4266BFDD20B63FC100D2B239 /* ViewController.swift */; };
 		4266BFE120B63FC100D2B239 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4266BFDF20B63FC100D2B239 /* Main.storyboard */; };
 		4266BFE320B63FCD00D2B239 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4266BFE220B63FCD00D2B239 /* Assets.xcassets */; };
 		4266BFE620B63FCD00D2B239 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4266BFE420B63FCD00D2B239 /* LaunchScreen.storyboard */; };
+		42F5969620C1864500C140A1 /* mona_timer_finish_normal.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42F5969520C1864400C140A1 /* mona_timer_finish_normal.wav */; };
+		42F5969820C51EDA00C140A1 /* mona_timer_finish_cup_noodle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42F5969720C51ED900C140A1 /* mona_timer_finish_cup_noodle.wav */; };
+		42F5969A20C51F0800C140A1 /* mona_timer_training_finish.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42F5969920C51F0800C140A1 /* mona_timer_training_finish.wav */; };
+		42F5969C20C51F1000C140A1 /* mona_timer_training_last29sec.wav in Resources */ = {isa = PBXBuildFile; fileRef = 42F5969B20C51F1000C140A1 /* mona_timer_training_last29sec.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		425B954D20BA42A5005013B4 /* mona_timer_finish.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mona_timer_finish.mp3; sourceTree = "<group>"; };
 		4266BFD820B63FC100D2B239 /* Mona_timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mona_timer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4266BFDB20B63FC100D2B239 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4266BFDD20B63FC100D2B239 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +26,10 @@
 		4266BFE220B63FCD00D2B239 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4266BFE520B63FCD00D2B239 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4266BFE720B63FCD00D2B239 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42F5969520C1864400C140A1 /* mona_timer_finish_normal.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mona_timer_finish_normal.wav; sourceTree = "<group>"; };
+		42F5969720C51ED900C140A1 /* mona_timer_finish_cup_noodle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mona_timer_finish_cup_noodle.wav; sourceTree = "<group>"; };
+		42F5969920C51F0800C140A1 /* mona_timer_training_finish.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mona_timer_training_finish.wav; sourceTree = "<group>"; };
+		42F5969B20C51F1000C140A1 /* mona_timer_training_last29sec.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mona_timer_training_last29sec.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +62,10 @@
 		4266BFDA20B63FC100D2B239 /* Mona_timer */ = {
 			isa = PBXGroup;
 			children = (
-				425B954D20BA42A5005013B4 /* mona_timer_finish.mp3 */,
+				42F5969520C1864400C140A1 /* mona_timer_finish_normal.wav */,
+				42F5969720C51ED900C140A1 /* mona_timer_finish_cup_noodle.wav */,
+				42F5969B20C51F1000C140A1 /* mona_timer_training_last29sec.wav */,
+				42F5969920C51F0800C140A1 /* mona_timer_training_finish.wav */,
 				4266BFDB20B63FC100D2B239 /* AppDelegate.swift */,
 				4266BFDD20B63FC100D2B239 /* ViewController.swift */,
 				4266BFDF20B63FC100D2B239 /* Main.storyboard */,
@@ -126,9 +135,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4266BFE620B63FCD00D2B239 /* LaunchScreen.storyboard in Resources */,
+				42F5969C20C51F1000C140A1 /* mona_timer_training_last29sec.wav in Resources */,
 				4266BFE320B63FCD00D2B239 /* Assets.xcassets in Resources */,
-				425B954E20BA42A5005013B4 /* mona_timer_finish.mp3 in Resources */,
 				4266BFE120B63FC100D2B239 /* Main.storyboard in Resources */,
+				42F5969820C51EDA00C140A1 /* mona_timer_finish_cup_noodle.wav in Resources */,
+				42F5969A20C51F0800C140A1 /* mona_timer_training_finish.wav in Resources */,
+				42F5969620C1864500C140A1 /* mona_timer_finish_normal.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

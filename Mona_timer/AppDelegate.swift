@@ -12,11 +12,25 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var backgroundTaskID : UIBackgroundTaskIdentifier = 0
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
+    }
+    
+    func applicationWillResignActive(application: UIApplication) {
+        self.backgroundTaskID = application.beginBackgroundTask(){
+            [weak self] in
+            application.endBackgroundTask((self?.backgroundTaskID)!)
+            self?.backgroundTaskID = UIBackgroundTaskInvalid
+        }
+
+    }
+    
+    func applicationDidBecomeActive(application: UIApplication) {
+        application.endBackgroundTask(self.backgroundTaskID)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
