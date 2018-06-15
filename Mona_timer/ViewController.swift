@@ -376,6 +376,7 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
                 self.view.addSubview(myUIPicker)
                 self.view.addSubview(mode_label)
                 mona_label.removeFromSuperview()
+                myLabel.removeFromSuperview()
             }
         }
         
